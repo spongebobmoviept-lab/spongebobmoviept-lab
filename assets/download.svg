@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="70" viewBox="0 0 340 70" role="img" aria-labelledby="t">
+  <title id="t">Download for Windows (latest release)</title>
+  <defs>
+    <linearGradient id="btn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8f52"/>
+      <stop offset="1" stop-color="#eb5e28"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="338" height="68" rx="15" fill="url(#btn)" stroke="#b9461a" stroke-width="2"/>
+  <path d="M17 3.5h306" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- download glyph -->
+  <circle cx="40" cy="35" r="19" fill="#181a20"/>
+  <g fill="none" stroke="#ff8f52" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 25v14"/>
+    <path d="M33.5 33.5L40 40l6.5-6.5"/>
+    <path d="M32 45h16"/>
+  </g>
+  <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" fill="#181a20">
+    <text x="72" y="33" font-size="19" font-weight="700">Download for Windows</text>
+    <text x="72" y="52" font-size="12" font-weight="600" fill-opacity="0.78">Latest release  ·  free and open source</text>
+  </g>
+</svg>

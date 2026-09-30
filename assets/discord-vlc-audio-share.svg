@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240" role="img" aria-labelledby="t d">
+  <title id="t">Discord VLC Audio Share</title>
+  <desc id="d">A small Windows tool. App audio goes through VB-Cable into VLC, and Discord shares the VLC window with clean audio.</desc>
+  <defs>
+    <linearGradient id="blurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a96ff"/>
+      <stop offset="1" stop-color="#5865f2"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1d28"/>
+      <stop offset="1" stop-color="#0d0e13"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="318.5" height="238.5" rx="14" fill="url(#bg)" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1.5"/>
+
+  <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <!-- header -->
+    <rect x="18" y="18" width="44" height="44" rx="10" fill="url(#blurple)"/>
+    <!-- screen with a speaker -->
+    <g fill="none" stroke="#ffffff" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="27" y="28" width="26" height="18" rx="3"/>
+      <path d="M35 52h10M40 46v6"/>
+      <path d="M36 35.500h2.500l3-2.500v8l-3-2.500H36z" fill="#ffffff" stroke-width="1"/>
+      <path d="M45 34.500q2 2.500 0 5" stroke-width="1.600"/>
+    </g>
+    <text font-size="17.500" font-weight="800" fill="#ececec">
+      <tspan x="74" y="37">Discord VLC</tspan>
+      <tspan x="74" y="57">Audio Share</tspan>
+    </text>
+
+    <!-- audio path -->
+    <g font-size="12" font-weight="700" text-anchor="middle" fill="#ececec">
+      <rect x="18" y="92" width="48" height="30" rx="8" fill="#16171f" stroke="#ffffff" stroke-opacity="0.16"/>
+      <text x="42" y="111.500">App</text>
+      <rect x="82" y="92" width="74" height="30" rx="8" fill="#16171f" stroke="#ffffff" stroke-opacity="0.16"/>
+      <text x="119" y="111.500">VB-Cable</text>
+      <rect x="172" y="92" width="48" height="30" rx="8" fill="#16171f" stroke="#ffffff" stroke-opacity="0.16"/>
+      <text x="196" y="111.500">VLC</text>
+      <rect x="236" y="92" width="66" height="30" rx="8" fill="url(#blurple)"/>
+      <text x="269" y="111.500" fill="#ffffff">Discord</text>
+    </g>
+    <g fill="none" stroke="#8a96ff" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M69 107h9M74 103l4.500 4-4.500 4"/>
+      <path d="M159 107h9M164 103l4.500 4-4.500 4"/>
+      <path d="M223 107h9M228 103l4.500 4-4.500 4"/>
+    </g>
+
+    <text font-size="12" fill="#9a9db0">
+      <tspan x="18" y="150">One monitor or one app window,</tspan>
+      <tspan x="18" y="167">with clean app audio.</tspan>
+    </text>
+
+    <!-- level meter -->
+    <g fill="#5865f2">
+      <rect x="18" y="203" width="6" height="17" rx="3" fill-opacity="0.55"/>
+      <rect x="30" y="193" width="6" height="27" rx="3" fill-opacity="0.75"/>
+      <rect x="42" y="186" width="6" height="34" rx="3"/>
+      <rect x="54" y="197" width="6" height="23" rx="3" fill-opacity="0.75"/>
+      <rect x="66" y="190" width="6" height="30" rx="3"/>
+      <rect x="78" y="201" width="6" height="19" rx="3" fill-opacity="0.65"/>
+      <rect x="90" y="207" width="6" height="13" rx="3" fill-opacity="0.45"/>
+      <rect x="102" y="198" width="6" height="22" rx="3" fill-opacity="0.70"/>
+      <rect x="114" y="188" width="6" height="32" rx="3"/>
+      <rect x="126" y="195" width="6" height="25" rx="3" fill-opacity="0.80"/>
+      <rect x="138" y="205" width="6" height="15" rx="3" fill-opacity="0.50"/>
+      <rect x="150" y="209" width="6" height="11" rx="3" fill-opacity="0.35"/>
+    </g>
+    <rect x="212" y="194" width="90" height="26" rx="13" fill="none" stroke="#ffffff" stroke-opacity="0.22"/>
+    <text x="257" y="211" font-size="10" font-weight="700" letter-spacing="1.2" fill="#b9bccb" text-anchor="middle">WINDOWS</text>
+  </g>
+</svg>

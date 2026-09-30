@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-labelledby="t d">
+  <title id="t">Requestarr</title>
+  <desc id="d">Slash commands in Discord (/movie, /tv, /anime) go straight to Radarr and Sonarr, and a thread follows the request from searching to downloading to available.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8c65a"/>
+      <stop offset="1" stop-color="#d4af37"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0.3" cy="0.2" r="0.95">
+      <stop offset="0" stop-color="#1d1d20"/>
+      <stop offset="1" stop-color="#0c0c0c"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="398.5" height="298.5" rx="15" fill="url(#bg)" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1.5"/>
+
+  <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <!-- header -->
+    <rect x="22" y="20" width="44" height="44" rx="10" fill="url(#gold)"/>
+    <text x="44" y="53" font-size="30" font-weight="800" fill="#101010" text-anchor="middle">R</text>
+    <text x="79" y="43" font-size="23" font-weight="800" fill="#ececec">Requestarr</text>
+    <text x="80" y="60" font-size="10" font-weight="700" letter-spacing="1.4" fill="#c9a94a">DISCORD TO RADARR + SONARR</text>
+
+    <!-- slash commands -->
+    <g font-family="ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#cdd1ff">
+      <rect x="22" y="90" width="92" height="27" rx="7" fill="#5865f2" fill-opacity="0.20" stroke="#5865f2" stroke-opacity="0.70"/>
+      <text x="34" y="108">/movie</text>
+      <rect x="22" y="125" width="92" height="27" rx="7" fill="#5865f2" fill-opacity="0.20" stroke="#5865f2" stroke-opacity="0.70"/>
+      <text x="34" y="143">/tv</text>
+      <rect x="22" y="160" width="92" height="27" rx="7" fill="#5865f2" fill-opacity="0.20" stroke="#5865f2" stroke-opacity="0.70"/>
+      <text x="34" y="178">/anime</text>
+    </g>
+
+    <!-- arrows -->
+    <g fill="none" stroke="#d4af37" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M120 103.500H206"/>
+      <path d="M120 138.500H142C164 138.500 164 156 186 156H206"/>
+      <path d="M120 173.500H142C164 173.500 164 156 186 156"/>
+      <path d="M200 98l7 5.500-7 5.500M200 150.500l7 5.500-7 5.500"/>
+    </g>
+
+    <!-- radarr / sonarr -->
+    <g font-size="13" font-weight="700" fill="#ececec">
+      <rect x="213" y="90" width="165" height="27" rx="7" fill="#19191c" stroke="#ffffff" stroke-opacity="0.16"/>
+      <circle cx="227" cy="103.500" r="4" fill="#ffc230"/>
+      <text x="238" y="108">Radarr</text>
+      <text x="368" y="108" font-size="11" font-weight="400" fill="#96969b" text-anchor="end">movies</text>
+      <rect x="213" y="142.500" width="165" height="27" rx="7" fill="#19191c" stroke="#ffffff" stroke-opacity="0.16"/>
+      <circle cx="227" cy="156" r="4" fill="#35c5f4"/>
+      <text x="238" y="160.500">Sonarr</text>
+      <text x="368" y="160.500" font-size="11" font-weight="400" fill="#96969b" text-anchor="end">TV + anime</text>
+    </g>
+
+    <!-- progress thread -->
+    <rect x="22" y="204" width="356" height="74" rx="10" fill="#131315" stroke="#ffffff" stroke-opacity="0.10"/>
+    <text x="36" y="223" font-size="10" font-weight="700" letter-spacing="1.3" fill="#96969b">PROGRESS THREAD</text>
+    <path d="M70 243H330" stroke="#d4af37" stroke-opacity="0.45" stroke-width="2"/>
+    <circle cx="70" cy="243" r="5.500" fill="#131315" stroke="#d4af37" stroke-width="2"/>
+    <circle cx="200" cy="243" r="5.500" fill="#131315" stroke="#d4af37" stroke-width="2"/>
+    <circle cx="330" cy="243" r="8" fill="url(#gold)"/>
+    <path d="M326 243.200l2.800 2.800 5-5.600" fill="none" stroke="#101010" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g font-size="11.500" fill="#b8b8bd" text-anchor="middle">
+      <text x="70" y="266">Searching</text>
+      <text x="200" y="266">Downloading</text>
+      <text x="330" y="266" fill="#e8c65a" font-weight="700">Available</text>
+    </g>
+  </g>
+</svg>

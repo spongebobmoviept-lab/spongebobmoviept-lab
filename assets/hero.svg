@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="540" viewBox="0 0 1280 540" role="img" aria-labelledby="t d">
+  <title id="t">Ruthless Controller Relay</title>
+  <desc id="d">Fly with the controller you already own. Turns a PS4, PS5 or Xbox controller into a real HOTAS joystick, or a clean regular gamepad, in any Windows game. Illustration: a gamepad on the left becomes a flight stick and throttle on the right.</desc>
+  <defs>
+    <style>
+      .flow path { animation: flow 2.1s ease-in-out infinite; }
+      .flow path:nth-child(2) { animation-delay: 0.22s; }
+      .flow path:nth-child(3) { animation-delay: 0.44s; }
+      @keyframes flow { 0%, 100% { opacity: 0.30; } 45% { opacity: 1; } }
+      .ring { transform-box: fill-box; transform-origin: center; animation: turn 120s linear infinite; }
+      @keyframes turn { to { transform: rotate(360deg); } }
+      @media (prefers-reduced-motion: reduce) { .flow path, .ring { animation: none; } }
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1e26"/>
+      <stop offset="0.55" stop-color="#12151b"/>
+      <stop offset="1" stop-color="#0c0e12"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8a4c"/>
+      <stop offset="1" stop-color="#eb5e28"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff8a4c"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <radialGradient id="glowO" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#eb5e28" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#eb5e28" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowT" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+    <clipPath id="card"><rect width="1280" height="540" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="540" fill="url(#bg)"/>
+    <rect width="1280" height="540" fill="url(#dots)"/>
+    <ellipse cx="832" cy="350" rx="190" ry="170" fill="url(#glowO)"/>
+    <ellipse cx="1122" cy="270" rx="270" ry="260" fill="url(#glowT)"/>
+
+    <!-- HUD rings behind the stick and throttle -->
+    <g fill="none" stroke="#5eead4">
+      <circle cx="1122" cy="262" r="204" stroke-opacity="0.10" stroke-width="1.5"/>
+      <circle class="ring" cx="1122" cy="262" r="150" stroke-opacity="0.16" stroke-width="1.5" stroke-dasharray="3 9"/>
+      <path d="M1122 40v24M1122 460v24" stroke-opacity="0.24" stroke-width="2"/>
+    </g>
+    <path d="M724 400H1280" stroke="#ffffff" stroke-opacity="0.09" stroke-width="2"/>
+  </g>
+  <rect x="1" y="1" width="1278" height="538" rx="27" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="2"/>
+
+  <!-- text -->
+  <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <!-- app icon, redrawn from the real one -->
+    <g transform="translate(72 62)">
+      <rect width="52" height="52" rx="12" fill="#181a20" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5"/>
+      <rect x="8" y="17" width="36" height="18" rx="9" fill="#eb5e28"/>
+      <path d="M15.5 26h7M19 22.5v7" stroke="#181a20" stroke-width="2.6"/>
+      <g fill="#181a20"><circle cx="31" cy="26" r="1.7"/><circle cx="37.6" cy="26" r="1.7"/><circle cx="34.3" cy="22.7" r="1.7"/><circle cx="34.3" cy="29.3" r="1.7"/></g>
+    </g>
+    <text x="142" y="84" font-size="17" font-weight="700" letter-spacing="3" fill="#ff8a4c">FLIGHT SIMS AND HOTAS GAMES</text>
+    <text x="142" y="108" font-size="17" font-weight="600" letter-spacing="3" fill="#8b93a1">WINDOWS 10 / 11</text>
+
+    <text font-size="74" font-weight="800" letter-spacing="-1.5" fill="#f5f6f8">
+      <tspan x="68" y="208">Ruthless</tspan>
+      <tspan x="68" y="286">Controller Relay</tspan>
+    </text>
+    <text x="72" y="345" font-size="28" font-weight="600" fill="#ffffff">Fly with the controller you already own.</text>
+    <text font-size="21" fill="#a7afbb">
+      <tspan x="72" y="392">Turns a PS4, PS5 or Xbox controller into a real HOTAS</tspan>
+      <tspan x="72" y="422">joystick, or a clean regular gamepad, in any Windows game.</tspan>
+    </text>
+    <text x="72" y="482" font-size="17" letter-spacing="0.4" fill="#7b8391">Native C  ·  built on vJoy, ViGEmBus and HidHide</text>
+
+    <text x="833" y="441" font-size="17" text-anchor="middle" fill="#9aa2af">your controller</text>
+    <text x="1122" y="441" font-size="17" text-anchor="middle" fill="#9aa2af">what your flight sim sees</text>
+  </g>
+
+  <!-- gamepad -->
+  <g transform="translate(744 286) scale(0.74)">
+    <rect x="52" y="10" width="40" height="22" rx="8" fill="#c94d1d"/>
+    <rect x="148" y="10" width="40" height="22" rx="8" fill="#c94d1d"/>
+    <path d="M70 20H170C205 20 220 45 228 80C236 115 240 140 216 148C196 154 182 134 170 116C164 107 158 102 148 102H92C82 102 76 107 70 116C58 134 44 154 24 148C0 140 4 115 12 80C20 45 35 20 70 20Z" fill="url(#orange)"/>
+    <g fill="#181a20">
+      <rect x="50" y="52" width="30" height="10" rx="3"/>
+      <rect x="60" y="42" width="10" height="30" rx="3"/>
+      <circle cx="163" cy="57" r="5.6"/><circle cx="187" cy="57" r="5.6"/><circle cx="175" cy="45" r="5.6"/><circle cx="175" cy="69" r="5.6"/>
+      <rect x="107" y="38" width="26" height="9" rx="4.5"/>
+      <circle cx="97" cy="83" r="12.5"/><circle cx="143" cy="83" r="12.5"/>
+    </g>
+    <g fill="none" stroke="#eb5e28" stroke-width="2.4"><circle cx="97" cy="83" r="6"/><circle cx="143" cy="83" r="6"/></g>
+  </g>
+
+  <!-- becomes -->
+  <g class="flow" fill="none" stroke="url(#flow)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M934 326l13 15-13 15" opacity="0.4"/>
+    <path d="M954 326l13 15-13 15" opacity="0.7"/>
+    <path d="M974 326l13 15-13 15"/>
+  </g>
+
+  <!-- flight stick -->
+  <g transform="translate(1062 400) scale(1.14)">
+    <ellipse cx="0" cy="3" rx="74" ry="6" fill="#000000" fill-opacity="0.4"/>
+    <path d="M-52 0h104a9 9 0 0 0 9-9v-6a9 9 0 0 0-9-9h-104a9 9 0 0 0-9 9v6a9 9 0 0 0 9 9z" fill="url(#teal)"/>
+    <path d="M-40-24l10-18h60l10 18z" fill="#14b8a6"/>
+    <ellipse cx="0" cy="-43" rx="27" ry="8" fill="#0f766e"/>
+    <ellipse cx="1" cy="-50" rx="22" ry="7" fill="#0d9488"/>
+    <ellipse cx="2" cy="-57" rx="18" ry="6" fill="#0f766e"/>
+    <path d="M-13-60C-17-98-12-128-6-148C-11-158-17-170-13-188C-9-206 12-213 30-207C47-201 53-185 47-169C43-158 35-151 31-139C27-110 23-88 18-60Z" fill="url(#teal)"/>
+    <path d="M-8-143q-15 6-10 25" stroke="#0f766e" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+    <circle cx="5" cy="-189" r="8" fill="#0b3b38"/>
+    <path d="M5-193.500v9M0.500-189h9" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round"/>
+    <rect x="22" y="-198" width="17" height="9.500" rx="4.750" transform="rotate(16 30.500 -193.250)" fill="#eb5e28"/>
+    <circle cx="29" cy="-177" r="3.800" fill="#0b3b38"/>
+    <path d="M2-72C4-96 8-118 14-136" stroke="#ffffff" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- throttle -->
+  <g transform="translate(1192 400) scale(1.08)">
+    <ellipse cx="0" cy="3" rx="58" ry="5" fill="#000000" fill-opacity="0.4"/>
+    <path d="M-40 0h80a9 9 0 0 0 9-9v-6a9 9 0 0 0-9-9h-80a9 9 0 0 0-9 9v6a9 9 0 0 0 9 9z" fill="url(#teal)"/>
+    <rect x="-31" y="-19" width="62" height="8" rx="4" fill="#0f766e"/>
+    <path d="M-3-16L-17-92" stroke="#14b8a6" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <rect x="-64" y="-128" width="86" height="38" rx="17" transform="rotate(-9 -21 -109)" fill="url(#teal)"/>
+    <circle cx="-44" cy="-106" r="4.8" fill="#0b3b38"/>
+    <circle cx="-29" cy="-108.5" r="4.8" fill="#0b3b38"/>
+    <circle cx="-5" cy="-112" r="5.2" fill="#eb5e28"/>
+  </g>
+</svg>

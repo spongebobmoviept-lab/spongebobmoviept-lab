@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-labelledby="t d">
+  <title id="t">Reclaimarr</title>
+  <desc id="d">Two jobs: a movie is upgraded from 1080p to 4K when someone presses play, and an old 60 GB remux is swapped for a smaller copy so the space is reclaimed.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8c65a"/>
+      <stop offset="1" stop-color="#d4af37"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0.3" cy="0.2" r="0.95">
+      <stop offset="0" stop-color="#1d1d20"/>
+      <stop offset="1" stop-color="#0c0c0c"/>
+    </radialGradient>
+    <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0V7" stroke="#d4af37" stroke-opacity="0.26" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect x="0.75" y="0.75" width="398.5" height="298.5" rx="15" fill="url(#bg)" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1.5"/>
+
+  <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <!-- header -->
+    <rect x="22" y="20" width="44" height="44" rx="10" fill="url(#gold)"/>
+    <text x="44" y="53" font-size="30" font-weight="800" fill="#101010" text-anchor="middle">R</text>
+    <text x="79" y="43" font-size="23" font-weight="800" fill="#ececec">Reclaimarr</text>
+    <text x="80" y="60" font-size="10" font-weight="700" letter-spacing="1.4" fill="#c9a94a">FOR PLEX + RADARR</text>
+
+    <!-- job 1: upgrade on play -->
+    <rect x="22" y="88" width="356" height="84" rx="10" fill="#131315" stroke="#ffffff" stroke-opacity="0.10"/>
+    <text x="36" y="107" font-size="10" font-weight="700" letter-spacing="1.3" fill="#96969b">SOMEONE PRESSES PLAY</text>
+    <circle cx="54" cy="141" r="17" fill="none" stroke="#d4af37" stroke-width="2"/>
+    <path d="M49 132.500v17l14-8.500z" fill="#e8c65a"/>
+    <rect x="92" y="125" width="84" height="32" rx="8" fill="#1d1d20" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="134" y="146.500" font-size="15" font-weight="700" fill="#b8b8bd" text-anchor="middle">1080p</text>
+    <path d="M188 141h62M243 134.500l7.500 6.500-7.500 6.500" fill="none" stroke="#d4af37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="264" y="121" width="100" height="40" rx="10" fill="url(#gold)"/>
+    <text x="314" y="149" font-size="23" font-weight="800" fill="#101010" text-anchor="middle">4K</text>
+
+    <!-- job 2: reclaim space -->
+    <rect x="22" y="182" width="356" height="98" rx="10" fill="#131315" stroke="#ffffff" stroke-opacity="0.10"/>
+    <text x="36" y="201" font-size="10" font-weight="700" letter-spacing="1.3" fill="#96969b">OLD REMUX, UNWATCHED</text>
+    <rect x="36" y="211" width="328" height="17" rx="5" fill="#45454c"/>
+    <text x="44" y="223.500" font-size="10.500" font-weight="700" fill="#f2f2f4">60 GB+ remux</text>
+    <rect x="36" y="238" width="328" height="17" rx="5" fill="url(#hatch)" stroke="#d4af37" stroke-opacity="0.45" stroke-dasharray="4 3"/>
+    <rect x="36" y="238" width="104" height="17" rx="5" fill="url(#gold)"/>
+    <text x="44" y="250.500" font-size="10.500" font-weight="700" fill="#101010">smaller copy</text>
+    <text x="252" y="250.500" font-size="10.500" font-weight="700" fill="#e8c65a" text-anchor="middle">space reclaimed</text>
+    <text x="36" y="271" font-size="10.500" fill="#96969b">The original stays until the new copy plays in Plex.</text>
+  </g>
+</svg>

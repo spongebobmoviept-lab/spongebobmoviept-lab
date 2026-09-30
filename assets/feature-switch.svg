@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="152" viewBox="0 0 272 152" role="img" aria-labelledby="t d">
+  <title id="t">Switch live</title>
+  <desc id="d">One hotkey or one controller button flips modes. No reboot, no replug.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1e26"/>
+      <stop offset="1" stop-color="#0e1014"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff8a4c"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="270.5" height="150.5" rx="13" fill="url(#bg)" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="270.5" height="150.5" rx="13" fill="none" stroke="url(#flow)" stroke-opacity="0.30" stroke-width="1.5"/>
+  <!-- icon: swap -->
+  <rect x="20" y="20" width="40" height="40" rx="10" fill="#ffffff" fill-opacity="0.07"/>
+  <g fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 34h21M44.500 28.500L50 34l-5.500 5.500" stroke="#ff8a4c"/>
+    <path d="M51 46H30M35.500 40.500L30 46l5.500 5.500" stroke="#5eead4"/>
+  </g>
+  <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="72" y="37" font-size="17" font-weight="700" fill="#f4f5f7">Switch live</text>
+    <text x="72" y="54" font-size="11" font-weight="600" letter-spacing="1.2" fill="#c9ced6">CTRL + ALT + H</text>
+    <text font-size="13" fill="#a7afbb">
+      <tspan x="20" y="88">One hotkey or one controller</tspan>
+      <tspan x="20" y="107">button flips modes.</tspan>
+      <tspan x="20" y="126">No reboot, no replug.</tspan>
+    </text>
+  </g>
+</svg>

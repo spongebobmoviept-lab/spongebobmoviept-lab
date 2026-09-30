@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="152" viewBox="0 0 272 152" role="img" aria-labelledby="t d">
+  <title id="t">HOTAS mode</title>
+  <desc id="d">Your controller shows up as a real joystick, so flight sims and HOTAS games bind to it.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1e26"/>
+      <stop offset="1" stop-color="#0e1014"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="270.5" height="150.5" rx="13" fill="url(#bg)" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="270.5" height="150.5" rx="13" fill="none" stroke="#2dd4bf" stroke-opacity="0.22" stroke-width="1.5"/>
+  <!-- icon: flight stick -->
+  <rect x="20" y="20" width="40" height="40" rx="10" fill="#2dd4bf" fill-opacity="0.14"/>
+  <g transform="translate(40 53) scale(0.15)">
+    <path d="M-52 0h104a9 9 0 0 0 9-9v-6a9 9 0 0 0-9-9h-104a9 9 0 0 0-9 9v6a9 9 0 0 0 9 9z" fill="url(#teal)"/>
+    <path d="M-40-24l10-18h60l10 18z" fill="#14b8a6"/>
+    <path d="M-13-42C-17-98-12-128-6-148C-11-158-17-170-13-188C-9-206 12-213 30-207C47-201 53-185 47-169C43-158 35-151 31-139C27-110 23-88 18-42Z" fill="url(#teal)"/>
+    <circle cx="31" cy="-182" r="9" fill="#eb5e28"/>
+  </g>
+  <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="72" y="37" font-size="17" font-weight="700" fill="#f4f5f7">HOTAS mode</text>
+    <text x="72" y="54" font-size="11" font-weight="600" letter-spacing="1.2" fill="#2dd4bf">VIRTUAL JOYSTICK</text>
+    <text font-size="13" fill="#a7afbb">
+      <tspan x="20" y="88">Your controller shows up as a</tspan>
+      <tspan x="20" y="107">real joystick, so flight sims and</tspan>
+      <tspan x="20" y="126">HOTAS games bind to it.</tspan>
+    </text>
+  </g>
+</svg>

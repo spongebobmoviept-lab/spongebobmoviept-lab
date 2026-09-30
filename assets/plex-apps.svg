@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="t d">
+  <title id="t">Self-hosted apps for Plex</title>
+  <desc id="d">A family of seven self-hosted apps that plug into Plex, Sonarr, Radarr, Dispatcharr and Discord: Tubarr, Tunerbox, Movie Night Player, Servarr, Requestarr, Nyaarr and Reclaimarr.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8c65a"/>
+      <stop offset="1" stop-color="#d4af37"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0.25" cy="0.15" r="1">
+      <stop offset="0" stop-color="#1f1f22"/>
+      <stop offset="1" stop-color="#0c0c0c"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d4af37" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tubarr" x1="4" y1="4" x2="44" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b09dff"/>
+      <stop offset="0.5" stop-color="#7563ff"/>
+      <stop offset="1" stop-color="#3f8cff"/>
+    </linearGradient>
+    <radialGradient id="tubarrScreen" cx="24" cy="26" r="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#231d52"/>
+      <stop offset="1" stop-color="#0b0d16"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="1200" height="240" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="240" fill="url(#bg)"/>
+    <ellipse cx="1009" cy="120" rx="330" ry="210" fill="url(#glow)"/>
+    <rect width="8" height="240" fill="url(#gold)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="238" rx="25" fill="none" stroke="#ffffff" stroke-opacity="0.11" stroke-width="2"/>
+
+  <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="58" y="76" font-size="15" font-weight="700" letter-spacing="3" fill="#d4af37">SELF-HOSTED  ·  DOCKER COMPOSE  ·  OPEN SOURCE</text>
+    <text x="56" y="134" font-size="50" font-weight="800" letter-spacing="-0.8" fill="#ececec">Self-hosted apps for Plex</text>
+    <text x="58" y="177" font-size="21" fill="#96969b">They plug into Plex, Sonarr, Radarr, Dispatcharr and Discord.</text>
+
+    <!-- the family: Tubarr, Tunerbox, Movie Night Player, Servarr / Requestarr, Nyaarr, Reclaimarr -->
+    <g>
+      <rect x="868" y="54" width="60" height="60" rx="14" fill="#0b0d16" stroke="#7563ff" stroke-opacity="0.65" stroke-width="1.5"/>
+      <g transform="translate(875 60) scale(0.96)">
+        <path d="M16.5 4.5 24 11.5l7.5-7" fill="none" stroke="url(#tubarr)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="3" y="11.5" width="42" height="32.5" rx="10.5" fill="url(#tubarr)"/>
+        <rect x="8.5" y="17" width="31" height="21.5" rx="6" fill="url(#tubarrScreen)"/>
+        <path d="M24 21.3v10.4M19.2 27.3 24 32l4.800-4.700" fill="none" stroke="#ffffff" stroke-width="3.100" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+
+      <rect x="942" y="54" width="60" height="60" rx="14" fill="url(#gold)"/>
+      <text x="972" y="98" font-size="40" font-weight="800" fill="#101010" text-anchor="middle">T</text>
+
+      <g transform="translate(1016 54) scale(0.9375)">
+        <rect width="64" height="64" rx="15" fill="url(#gold)"/>
+        <rect x="10" y="16" width="44" height="30" rx="4" fill="#14161a"/>
+        <path d="M28 24v14l12-7z" fill="#d4af37"/>
+        <rect x="22" y="50" width="20" height="4" rx="2" fill="#14161a"/>
+      </g>
+
+      <rect x="1090" y="54" width="60" height="60" rx="14" fill="url(#gold)"/>
+      <text x="1120" y="98" font-size="40" font-weight="800" fill="#101010" text-anchor="middle">S</text>
+
+      <rect x="905" y="126" width="60" height="60" rx="14" fill="url(#gold)"/>
+      <text x="935" y="170" font-size="40" font-weight="800" fill="#101010" text-anchor="middle">R</text>
+
+      <rect x="979" y="126" width="60" height="60" rx="14" fill="url(#gold)"/>
+      <text x="1009" y="170" font-size="40" font-weight="800" fill="#101010" text-anchor="middle">N</text>
+
+      <rect x="1053" y="126" width="60" height="60" rx="14" fill="url(#gold)"/>
+      <text x="1083" y="170" font-size="40" font-weight="800" fill="#101010" text-anchor="middle">R</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-labelledby="t d">
+  <title id="t">Movie Night Player</title>
+  <desc id="d">One movie plays from Plex and three friends watch it in their browsers at the same point in the film. A /play-movie command in Discord starts it.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8c65a"/>
+      <stop offset="1" stop-color="#d4af37"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0.3" cy="0.2" r="0.95">
+      <stop offset="0" stop-color="#1d1d20"/>
+      <stop offset="1" stop-color="#0c0c0c"/>
+    </radialGradient>
+    <radialGradient id="screen" cx="0.5" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#2a2414"/>
+      <stop offset="1" stop-color="#0d0d0f"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="398.5" height="298.5" rx="15" fill="url(#bg)" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1.5"/>
+
+  <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <!-- header: the player's own icon -->
+    <g transform="translate(22 20) scale(0.6875)">
+      <rect width="64" height="64" rx="14" fill="url(#gold)"/>
+      <rect x="10" y="16" width="44" height="30" rx="4" fill="#14161a"/>
+      <path d="M28 24v14l12-7z" fill="#d4af37"/>
+      <rect x="22" y="50" width="20" height="4" rx="2" fill="#14161a"/>
+    </g>
+    <text x="79" y="43" font-size="23" font-weight="800" fill="#ececec">Movie Night Player</text>
+    <text x="80" y="60" font-size="10" font-weight="700" letter-spacing="1.4" fill="#c9a94a">WATCH PARTY FOR PLEX</text>
+
+    <!-- the movie -->
+    <rect x="22" y="88" width="214" height="126" rx="10" fill="url(#screen)" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5"/>
+    <circle cx="129" cy="143" r="23" fill="#101010" fill-opacity="0.55" stroke="#e8c65a" stroke-width="2"/>
+    <path d="M122 132v22l18-11z" fill="#e8c65a"/>
+    <rect x="38" y="193" width="182" height="4" rx="2" fill="#3c3c42"/>
+    <rect x="38" y="193" width="80" height="4" rx="2" fill="#e8c65a"/>
+    <circle cx="118" cy="195" r="5" fill="#e8c65a"/>
+
+    <!-- same moment for everyone -->
+    <g fill="none" stroke="#d4af37" stroke-opacity="0.65" stroke-width="1.500" stroke-dasharray="1.500 4.500" stroke-linecap="round">
+      <path d="M237 151C250 151 250 107 262 107"/>
+      <path d="M237 151H262"/>
+      <path d="M237 151C250 151 250 195 262 195"/>
+    </g>
+    <g>
+      <rect x="262" y="88" width="116" height="38" rx="9" fill="#131315" stroke="#ffffff" stroke-opacity="0.13"/>
+      <circle cx="281" cy="107" r="8.500" fill="#5865f2"/>
+      <rect x="298" y="105" width="68" height="4" rx="2" fill="#3c3c42"/>
+      <rect x="298" y="105" width="30" height="4" rx="2" fill="#e8c65a"/>
+      <circle cx="328" cy="107" r="3.500" fill="#e8c65a"/>
+
+      <rect x="262" y="132" width="116" height="38" rx="9" fill="#131315" stroke="#ffffff" stroke-opacity="0.13"/>
+      <circle cx="281" cy="151" r="8.500" fill="#3fb950"/>
+      <rect x="298" y="149" width="68" height="4" rx="2" fill="#3c3c42"/>
+      <rect x="298" y="149" width="30" height="4" rx="2" fill="#e8c65a"/>
+      <circle cx="328" cy="151" r="3.500" fill="#e8c65a"/>
+
+      <rect x="262" y="176" width="116" height="38" rx="9" fill="#131315" stroke="#ffffff" stroke-opacity="0.13"/>
+      <circle cx="281" cy="195" r="8.500" fill="#f0883e"/>
+      <rect x="298" y="193" width="68" height="4" rx="2" fill="#3c3c42"/>
+      <rect x="298" y="193" width="30" height="4" rx="2" fill="#e8c65a"/>
+      <circle cx="328" cy="195" r="3.500" fill="#e8c65a"/>
+    </g>
+    <g fill="#ffffff" fill-opacity="0.92">
+      <circle cx="281" cy="104.300" r="2.700"/><path d="M276 112.600a5 5 0 0 1 10 0z"/>
+      <circle cx="281" cy="148.300" r="2.700"/><path d="M276 156.600a5 5 0 0 1 10 0z"/>
+      <circle cx="281" cy="192.300" r="2.700"/><path d="M276 200.600a5 5 0 0 1 10 0z"/>
+    </g>
+    <text x="320" y="234" font-size="11" fill="#96969b" text-anchor="middle">friends, in sync</text>
+
+    <!-- started from Discord -->
+    <rect x="22" y="240" width="116" height="28" rx="7" fill="#5865f2" fill-opacity="0.20" stroke="#5865f2" stroke-opacity="0.70"/>
+    <text x="34" y="258.500" font-family="ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#cdd1ff">/play-movie</text>
+    <text x="148" y="258.500" font-size="11" fill="#96969b">starts it from Discord</text>
+  </g>
+</svg>
