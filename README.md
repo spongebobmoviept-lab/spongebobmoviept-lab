@@ -1,4 +1,4 @@
-Self-taught builder. Two things live here: **[Ruthless Controller Relay](https://github.com/spongebobmoviept-lab/RuthlessControllerRelay)**, which turns a gamepad into a HOTAS for flight sims, and a **[family of self-hosted apps for Plex](#plex-apps)**.
+Self-taught builder. Two things live here: **[Ruthless Controller Relay](https://github.com/spongebobmoviept-lab/RuthlessControllerRelay)**, which turns a gamepad into a HOTAS for flight sims, and a **[family of self-hosted apps for Plex](#user-content-plex-apps)**.
 
 <p align="center">
   <a href="https://github.com/spongebobmoviept-lab/RuthlessControllerRelay"><img src="assets/hero.svg" width="100%" alt="Ruthless Controller Relay. Fly with the controller you already own: it turns a PS4, PS5 or Xbox controller into a real HOTAS joystick, or a clean regular gamepad, in any Windows game."></a>
@@ -16,7 +16,7 @@ Self-taught builder. Two things live here: **[Ruthless Controller Relay](https:/
   <a href="https://github.com/spongebobmoviept-lab/RuthlessControllerRelay/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-3d444d" alt="License: MIT"></a>
 </p>
 
-Flight sims and other HOTAS games bind their controls to a joystick, and Windows treats a gamepad as a different kind of device, so those games won't take a controller's sticks. Ruthless Controller Relay shows your controller to them as a virtual joystick, and to everything else as a normal gamepad. Flight-sim and WARDOGS players use it to fly with the controller they already own.
+Flight sims and other HOTAS games bind their controls to a joystick, and Windows treats a gamepad as a different kind of device, so some of those games won't take a controller's sticks. Ruthless Controller Relay shows your controller to them as a virtual joystick, and to everything else as a normal gamepad. Flight-sim and WARDOGS players use it to fly with the controller they already own.
 
 <p align="center">
   <a href="https://github.com/spongebobmoviept-lab/RuthlessControllerRelay#how-it-works"><img src="assets/feature-hotas.svg" width="272" alt="HOTAS mode: your controller shows up as a real joystick, so flight sims and HOTAS games bind to it."></a>
@@ -42,13 +42,10 @@ Flight sims and other HOTAS games bind their controls to a joystick, and Windows
 <p align="center"><sub>The live dashboard: real-time axis and button state, the current mode, and what the game sees next to what is actually plugged in.</sub></p>
 </details>
 
-<br>
-<br>
-
-<a name="plex-apps"></a>
+<a name="plex-apps"></a><br><br>
 
 <p align="center">
-  <a href="#plex-apps"><img src="assets/plex-apps.svg" width="100%" alt="Self-hosted apps for Plex: a family of seven apps that plug into Plex, Sonarr, Radarr, Dispatcharr and Discord."></a>
+  <a href="#user-content-plex-apps"><img src="assets/plex-apps.svg" width="100%" alt="Self-hosted apps for Plex: a family of seven apps that plug into Plex, Sonarr, Radarr, Dispatcharr and Discord."></a>
 </p>
 
 Seven small apps. Each one installs with Docker Compose (amd64 and arm64) and has its own web setup page.
@@ -179,7 +176,7 @@ flowchart LR
     class plex hub
 ```
 
-<sub>Gold boxes are the apps above; rounded ones are the software they plug into.</sub>
+<sub>Gold boxes are the apps above; the other shapes are the software and services they plug into.</sub>
 
 ---
 
